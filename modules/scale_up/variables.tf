@@ -3,8 +3,7 @@
 ##############################################################################
 variable "ibmcloud_api_key" {
   description = "Get the ibmcloud api key from https://cloud.ibm.com/iam/apikeys"
-  type        = string
-  
+  type        = string  
 }
 
 variable "cluster" {
