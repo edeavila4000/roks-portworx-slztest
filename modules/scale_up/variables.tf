@@ -4,7 +4,7 @@
 variable "ibmcloud_api_key" {
   description = "Get the ibmcloud api key from https://cloud.ibm.com/iam/apikeys"
   type        = string
-  default     = "qrqIdrlSVIW0lbuUZmkpxjLUFrMdU0bl6hlu-JXzOjPv"
+  
 }
 
 variable "cluster" {
@@ -28,7 +28,7 @@ variable "flavor" {
 variable "vpc_id" {
   description = "The ID of the VPC."
   type        = string
-  default     = "r014-e3632d01-005e-45eb-8833-426da0566493"
+  
 }
 
 variable "worker_count" {
@@ -51,7 +51,7 @@ variable "name" {
 variable "subnet_id" {
   description = "The subnet that you want to use for your worker pool."
   type        = string
-  default     = "0757-bd44838b-bc32-4d8d-9227-3ebbea65990e"
+  
 }
 
 variable "resource_group" {
