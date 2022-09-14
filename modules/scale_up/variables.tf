@@ -57,7 +57,6 @@ variable "subnet_id" {
 variable "resource_group" {
   description = "Resource group of existing cluster"
   type        = string
-  default     = "slz-rg"
 }
 
 
