@@ -2,16 +2,13 @@
 # IBM Cloud Provider
 ##############################################################################
 provider "ibm" {
-  region = var.region
+ ibmcloud_api_key = var.ibmcloud_api_key
 }
 
 ##############################################################################
 # Data blocks
 ##############################################################################
-<<<<<<< HEAD
 data "ibm_iam_auth_token" "token" {}
-=======
->>>>>>> origin/roks-portworx-slztest
 
 data "ibm_resource_group" "group" {
   name = var.resource_group
